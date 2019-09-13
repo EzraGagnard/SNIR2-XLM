@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<!ELEMENT bibliotheque (allees+)>
+<!ELEMENT allees (numero, rayon*)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT rayon (numeroRayon*,ouvrage*)>
+<!ELEMENT numeroRayon (#PCDATA)>
+
+<!ELEMENT ouvrage (titre,auteur*,numeroOuvrage*,type*)>
+<!ELEMENT numeroOuvrage (#PCDATA)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+
+<!ELEMENT type EMPTY>
+<!ATTLIST type typeOuvrage (littérature|manuelScolaire|périodique|scienceEtTechnique) "littérature">

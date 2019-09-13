@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 sept. 2019, 15:16:15
+    Author     : gabriellegagnard
+*/
+table{
+ border-collapse: collapse;  
+  border: 2px ridge black;
+  margin: auto;
+}
+tr{
+      border: 1px solid black;
+      
+}
+
+.debutDeTableau{
+    background-color: #ffff99;
+    
+}
+th{
+      border: 1px solid black;
+}
+td{
+      border: 1px solid black;
+      text-align: center;
+      width: 150px;
+}
+
+.or{
+    background-color: yellow;
+}
+
+.argent{
+    background-color: grey;
+}
+.bronze{
+    background-color: brown; 
+}
+
+.usa{
+    background-color: #ccffff; 
+}
+
+.grandebretagne{
+    background-color: #ccffcc; 
+}
+
+.chine{
+    background-color: #ffffcc; 
+}
+
+.russie{
+    background-color: #ffccff; 
+}
+
+.allemagne{
+    background-color: #ccccff; 
+}
+
+.japon{
+    background-color: #aaaaff; 
+}
+
+.france{
+    background-color: #ffcccc; 
+}
+
+.coreedusud{
+    background-color: #aaffaa; 
+}
+
+.italie{
+    background-color: #ffaaaa; 
+}
+
+.australie{
+    background-color: #ffaaff; 
+}

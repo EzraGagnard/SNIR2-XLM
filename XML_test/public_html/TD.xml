@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliotheque SYSTEM "TD.dtd">
+<?xml-stylesheet href="TD.xsl" type="text/xsl" ?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<bibliotheque>
+<allees>
+<numero>1</numero>
+
+<rayon numeroRayon="1">
+<ouvrage typeOuvrage="litterature">
+<titre>Le papillon des étoiles</titre>
+<auteur>Bernard WERBER</auteur>
+</ouvrage>
+
+<ouvrage typeOuvrage="manuelScolaire">
+<titre>Les Formes de base</titre>
+<auteur>Daniele Dumont</auteur>
+</ouvrage>
+
+<ouvrage typeOuvrage="scienceEtTechnique">
+<titre>XML et XSL : Les feuilles de style XML</titre>
+<auteur>Cyril Vincent</auteur>
+</ouvrage>
+
+</rayon>
+
+
+<rayon numeroRayon="2">
+<ouvrage typeOuvrage="periodique" numeroOuvrage="102">
+<titre>LINUX Magazine</titre>
+</ouvrage>
+<ouvrage typeOuvrage="periodique">
+<titre>Closer</titre>
+</ouvrage>
+<ouvrage typeOuvrage="litterature" numeroOuvrage="1">
+<titre>Harry Potter</titre>
+<auteur>J.K Rowling</auteur>
+</ouvrage>
+
+</rayon>
+</allees>
+
+<allees>
+<numero>2</numero>
+
+<rayon numeroRayon="1">
+<ouvrage typeOuvrage="litterature" numeroOuvrage="31">
+<titre>Jeu de nains</titre>
+<auteur>Terry Pratchett</auteur>
+</ouvrage>
+
+</rayon>
+
+
+<rayon numeroRayon="2">
+<ouvrage typeOuvrage="litterature" numeroOuvrage="2">
+<titre>Fondation</titre>
+<auteur>Isaac Asimov</auteur>
+</ouvrage>
+</rayon>
+
+<ouvrage typeOuvrage="scienceEtTechnique">
+<titre>Ajax, jQuery et PHP</titre>
+<auteur>Jean-marie Defrance</auteur>
+</ouvrage>
+
+</allees>
+
+
+</bibliotheque>
+
